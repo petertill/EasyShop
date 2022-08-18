@@ -92,12 +92,15 @@ This software was made by **[Peter Till](https://github.com/petertill)**, who so
 
 ## Build Process
 
-- Follow the [React Native Guide](https://facebook.github.io/react-native/docs/getting-started.html) for getting started building a project with native code. **A Mac is required if you wish to develop for iOS.**
-- Clone or download the repo
-- `yarn` to install dependencies
-- `yarn run link` to link react-native dependencies
-- `yarn start:ios` to start the packager and run the app in the iOS simulator (`yarn start:ios:logger` will boot the application with [redux-logger](<https://github.com/evgenyrodionov/redux-logger>))
-- `yarn start:android` to start the packager and run the app in the the Android device/emulator (`yarn start:android:logger` will boot the application with [redux-logger](https://github.com/evgenyrodionov/redux-logger))
+- Make sure that you have the latest installation of PHP, MySQL, Apache on your machine.
+- Copy the source code (the files and folders located inside the same directory as this documentation) files into your web server's root folder
+- Make the file(s) and folder(s) visible and writeable to everyone so the installer is able to configure your webshop
+- Open your website with the installer inside a desktop browser. The URL should be `www.yourdomain.com/installer/`.
+- Fill out the `Shop name`, `Shop description`, `Support email` and `Company localisation` fields
+- Fill out the `System configuration` box's fields with your database and it's credentials. If you aren't sure, contact your network administrator, the IT team or the web hosting provider.
+- Decide your admin username and password. You will be able to log into the admin panel with these, so make sure you will remember your password but other people can't guess it.
+- Click the `Next` button
+- 
 
 Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how to build your application as well as troubleshooting information.
 
