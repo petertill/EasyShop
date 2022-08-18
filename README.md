@@ -72,15 +72,19 @@ The following features are included in this software:
   <img src = "http://i.imgur.com/IkSnFRL.png" width=700>
 </p>
 
+**User/Visitor:**
+
+* Can browse goods
+
 <p align="center">
   <img src = "http://i.imgur.com/0iorG20.png" width=700>
 </p>
 
 ## Feedback
 
-Feel free to send us feedback on [Twitter](https://twitter.com/gitpointapp) or [file an issue](https://github.com/gitpoint/git-point/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
+Feel free to send me feedback on [Codester](https://twitter.com/gitpointapp) so I can make the project better!
 
-If there's anything you'd like to chat about, please feel free to join our [Gitter chat](https://gitter.im/git-point)!
+If there's anything you'd like to chat about, please feel free to contact me on Discord (**petyadev#1129**)!
 
 ## Creator(s) of this software
 
