@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  GitHub in your pocket. Built with React Native.
+  A complete user-friendly online webshop made with PHP OOP & MySQL.
 </p>
 
 <p align="center">
@@ -53,17 +53,20 @@ View repository and user information, control your notifications and even manage
 
 ## Features
 
-A few of the things you can do with GitPoint:
+The following features are included in this software:
 
-* View user activity feed
-* Communicate on your issue and pull request conversations
-* Close or lock issues
-* Apply labels and assignees
-* Review and merge pull requests
-* Create new issues
-* Star, watch and fork repositories
-* Control your unread and participating notifications
-* Easily search for any user or repository
+**Admin:**
+
+* Admin panel (for the seller)
+* Can upload goods with a .csv file
+* Built-in installer to configure the webshop details, database connection and more in one step
+* Can create categories and add products to it
+* Can view full list of products
+* Can delete products
+* Can update products
+* Can add products one by one
+* Can view salaries & income
+
 
 <p align="center">
   <img src = "http://i.imgur.com/IkSnFRL.png" width=700>
