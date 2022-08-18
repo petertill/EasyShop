@@ -82,9 +82,9 @@ Feel free to send us feedback on [Twitter](https://twitter.com/gitpointapp) or [
 
 If there's anything you'd like to chat about, please feel free to join our [Gitter chat](https://gitter.im/git-point)!
 
-## Contributors
+## Creator(s) of this software
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification and is brought to you by these [awesome contributors](./CONTRIBUTORS.md).
+This software was made by **[Peter Till](https://github.com/petertill)**, who sold it on [Codester](./CONTRIBUTORS.md).
 
 ## Build Process
 
