@@ -27,7 +27,7 @@
 - [Features](#features)
 - [Feedback](#feedback)
 - [Contributors](#contributors)
-- [Build Process](#how-to-install)
+- [How to install](#how-to-install)
 - [Backers](#backers-)
 - [Sponsors](#sponsors-)
 - [Acknowledgments](#acknowledgments)
