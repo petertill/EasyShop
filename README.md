@@ -37,7 +37,7 @@
 ## Contact me
 
 [![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/petertill/EasyShop)
-[![Discord](https://invidget.switchblade.xyz/2FB8wDG)](http://discord.gg/2FB8wDG)
+<!-- [![Discord](https://invidget.switchblade.xyz/2FB8wDG)](http://discord.gg/2FB8wDG) -->
 
 # Introduction
 
