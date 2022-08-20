@@ -27,19 +27,21 @@
 - [Features](#features)
 - [Feedback](#feedback)
 - [Contributors](#contributors)
-- [How to install](#how-to-install)
+- [Build Process](#build-process)
 - [Backers](#backers-)
 - [Sponsors](#sponsors-)
 - [Acknowledgments](#acknowledgments)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Contact me
+## Introduction
 
-[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/petertill/EasyShop)
-<!-- [![Discord](https://invidget.switchblade.xyz/2FB8wDG)](http://discord.gg/2FB8wDG) -->
-
-# Introduction
+[![Build Status](https://img.shields.io/travis/gitpoint/git-point.svg?style=flat-square)](https://travis-ci.org/gitpoint/git-point)
+[![Coveralls](https://img.shields.io/coveralls/github/gitpoint/git-point.svg?style=flat-square)](https://coveralls.io/github/gitpoint/git-point)
+[![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/git-point)
 
 View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
 
@@ -88,7 +90,7 @@ If there's anything you'd like to chat about, please feel free to contact me on 
 
 This software was made by **[Peter Till](https://github.com/petertill)**, who sold it on [Codester](./CONTRIBUTORS.md).
 
-## How to install
+## Build Process
 
 - Make sure that you have the latest installation of PHP, MySQL, Apache on your machine.
 - Copy the source code (the files and folders located inside the same directory as this documentation) files into your web server's root folder
@@ -98,8 +100,7 @@ This software was made by **[Peter Till](https://github.com/petertill)**, who so
 - Fill out the `System configuration` box's fields with your database and it's credentials. If you aren't sure, contact your network administrator, the IT team or the web hosting provider.
 - Decide your admin username and password. You will be able to log into the admin panel with these, so make sure you will remember your password but other people can't guess it.
 - Click the `Next` button
-- If your shop is configured successfully, you can click the link on the current page to remove the installer. It is highly recommended, because if you do not remove it, anyone visiting the installer link will be able to re-configure your webshop. You definitely don't want it to happen, do you?
-- Congratulations! You have successfully installed the software. If you want to upload goods, or change the style to dark you can do it at `www.yourwebsite.com/admin/`. Please note that some users will be able to see the previous version of your page after configuration because of their browser cache. No worries, it will be removed automatically after a week.
+- 
 
 Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how to build your application as well as troubleshooting information.
 

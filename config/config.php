@@ -7,6 +7,8 @@ $db = new mysqli("localhost", "root", "Faszom200", "shop") or die("Cannot connec
 
 $shop_name = "PetyaShop";
 
+$theme = "light";
+
 //copyright information
 $year = date("Y");
 $copyright = $year . " | PetyaShop, All rights reserved! ";

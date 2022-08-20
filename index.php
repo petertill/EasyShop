@@ -1,12 +1,11 @@
 <?php
 session_start();
-include('Termek.php');
+include('./config/config.php');
+include('./class/Termek.php');
 ?>
 <?php
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 
 
 $item_array = array(
@@ -31,25 +30,26 @@ $item_array = array(
 <header class="hero-section">
     <div class="content">
         <img src="img/light-logo.png" class="logo" alt="">
-        <p class="sub-heading">best fashion collection of all time</p>
+        <p class="sub-heading">start the school with our products</p>
     </div>
 </header>
 <section class="product">
     <h2 class="product-category">best selling</h2>
-    <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
-	<button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+    <button class="pre-btn"><i class="fas fa-angle-right"></i></button>
+	<button class="nxt-btn"><i class="fas fa-angle-right"></i></button>
     <div class="product-container">
 	<?php 
-		$termekek = Termek::termekLista();
+		$termekek = Termek::termekLista($db);
 		
 		foreach($termekek as $termek){
 			$nev = $termek->nev;
+			$id = $termek->azon;
 	?>
     <div class="product-card">
         <div class="product-image">
             <span class="discount-tag">50% off</span>
             <img src="img/card1.png" class="product-thumb" alt="">
-            <button class="card-btn">add to whislist</button>
+            <a class="card-btn" href="view.php?id=<?php echo $id; ?>">Megtekintés</a>
         </div>
         <div class="product-info">
             <h2 class="product-brand"><?php echo $nev; ?></h2>
@@ -80,7 +80,7 @@ $item_array = array(
 				<input type="submit" value="Kosárba teszem">
 			</form>
 		</div-->
-<br>
+		<?php include('includes/footbar.php'); ?>
 		<script type="text/javascript">
 		const productContainers = [...document.querySelectorAll('.product-container')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];

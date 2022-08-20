@@ -1,16 +1,3 @@
-<?php include('./config/config.php'); ?>
-<script src="https://kit.fontawesome.com/30ed78d123.js" crossorigin="anonymous"></script>
-<?php
-if($theme = "dark"){
-?>
-<link href="css/dark.css" rel="stylesheet" type="text/css" />
-<?php }else{
-?>
-<link href="css/light.css" rel="stylesheet" type="text/css" />
-<?php } ?>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<!--style>
 /*Navbar*/
 
 *{
@@ -20,12 +7,16 @@ if($theme = "dark"){
     font-family: 'roboto', sans-serif;
 }
 
+body{
+    background-color: #4b4b4b;
+}
+
 .navbar{
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
-    background: #f5f5f5;
+    background: #292828;
     z-index: 9;
 }
 
@@ -34,6 +25,15 @@ if($theme = "dark"){
     display: flex;
     justify-content: space-between;
 }
+
+i{
+    color: #e7e7e7;
+}
+
+h1, h2{
+    color: #e7e7e7;
+}
+
 
 .brand-logo{
     height: 60px;
@@ -69,8 +69,8 @@ if($theme = "dark"){
     border: none;
     outline: none;
     cursor: pointer;
-    background: #383838;
-    color: #fff;
+    background: #e7e7e7;
+    color: rgb(34, 34, 34);
     text-transform: capitalize;
     font-size: 15px;
     border-top-right-radius: 10px;
@@ -105,7 +105,7 @@ if($theme = "dark"){
     padding: 0 10px;
     margin: 0 5px;
     text-decoration: none;
-    color: #383838;
+    color: #e7e7e7;
     opacity: 0.5;
     transition: .5s;
 }
@@ -120,7 +120,7 @@ if($theme = "dark"){
 .hero-section{
     width: 100%;
     height: calc(100vh - 120px);
-    background-image: url('../img/header.png');
+    background-image: url('../assets/hero.png');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -134,6 +134,7 @@ if($theme = "dark"){
 }
 
 .hero-section .sub-heading{
+    animation: flicker 1.5s infinite alternate;
     margin-top: 10px;
     text-align: center;
     color: #fff;
@@ -141,6 +142,28 @@ if($theme = "dark"){
     font-size: 35px;
     font-weight: 300;
 }
+
+/* Flickering animation */
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
 
 /* Termek slider */
 .product{
@@ -213,6 +236,8 @@ if($theme = "dark"){
     transition: 0.5s;
     cursor: pointer;
     opacity: 0;
+    text-decoration: none;
+    color: black;
 }
 
 .product-card:hover .card-btn{
@@ -241,17 +266,20 @@ if($theme = "dark"){
     opacity: 0.5;
     text-transform: capitalize;
     margin: 5px 0;
+    color: #c0c0c0;
 }
 
 .price{
     font-weight: 900;
     font-size: 20px;
+    color: white;
 }
 
 .actual-price{
     margin-left: 20px;
     opacity: 0.5;
     text-decoration: line-through;
+    color: rgb(216, 215, 215);
 }
 .pre-btn, .nxt-btn{
     border: none;
@@ -262,7 +290,7 @@ if($theme = "dark"){
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    background: linear-gradient(90.00deg, #4b4b4b 0%, #292828 100%);
     cursor: pointer;
     z-index: 8;
 }
@@ -283,28 +311,3 @@ if($theme = "dark"){
 .pre-btn:hover img, .nxt-btn:hover img{
     opacity: 1;
 }
-
-</style-->
-<nav class="navbar">
-<div class="nav">
-    <!--img src="img/dark-logo.png" class="brand-logo" alt=""--><h1 style="margin-top: 10px; margin-bottom: 10px;"><span style="color: blue;">My </span>Shop</h1>
-    <div class="nav-items">
-        <div class="search">
-            <input type="text" class="search-box" placeholder="search brand, product">
-            <button class="search-btn">search</button>
-        </div>
-        <!--a href="#"><img src="img/user.png" alt=""></a>
-        <a href="#"><img src="img/cart.png" alt=""></a-->
-        <a href="#" style="color: black;"><i class="fas fa-shopping-cart fa-xl"></i></a>
-    </div>
-</div>
-<ul class="links-container">
-    <li class="link-item"><a href="#" class="link">home</a></li>
-    <li class="link-item"><a href="#" class="link">women</a></li>
-    <li class="link-item"><a href="#" class="link">men</a></li>
-    <li class="link-item"><a href="#" class="link">kids</a></li>
-    <li class="link-item"><a href="#" class="link">accessories</a></li>
-</ul>
-</nav>
-
-

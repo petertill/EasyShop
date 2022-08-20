@@ -1,3 +1,23 @@
+<?php
+session_start();
+include('./config/config.php');
+include('./class/Termek.php');
+
+$id = $_GET['id'];
+?>
+<?php
+
+
+
+
+$item_array = array(
+ 'id' => "123",
+ 'nev' => "Apple",
+ 'ar' => 120,
+ 'mennyiseg' => 10
+ );
+ $_SESSION["kosár"][0] = $item_array;
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -130,6 +150,26 @@
 	<body>
 		<?php include('includes/navbar.php'); ?>
 		<!-- hero section -->
+        
+
+        <?php 
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+    if(isset($db)){
+        echo "Okay here";
+    }else{
+        echo "Valami itt már nem jó";
+    }
+
+		$termekek = Termek::termekInfo($id, $db);
+		
+		foreach($termekek as $termek){
+			$nev = $termek->nev;
+            echo $nev;
+        }
+	?>
 
 
 <section class="product">
@@ -146,7 +186,7 @@
 		</section>
 		<section>
 			<div class="details">
-				<h2 class="product-brand">calvin klein</h2>
+				<h2 class="product-brand">Nev</h2>
 				<p class="product-short-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
 				<span class="product-price">$99</span>
 				<span class="product-actual-price">$200</span>
