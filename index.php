@@ -6,8 +6,6 @@ include('./class/Termek.php');
 <?php
 
 
-
-
 $item_array = array(
  'id' => "123",
  'nev' => "Apple",
@@ -39,7 +37,8 @@ $item_array = array(
 	<button class="nxt-btn"><i class="fas fa-angle-right"></i></button>
     <div class="product-container">
 	<?php 
-		$termekek = Termek::termekLista($db);
+		$class = new Termek();
+        $termekek = $class->termekLista();
 		
 		foreach($termekek as $termek){
 			$nev = $termek->nev;

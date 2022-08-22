@@ -18,12 +18,22 @@ td, th {
   padding: 8px;
 }
 
+
+th {
+	color: white;
+}
+
+td {
+	color: black;
+}
+
 tr:nth-child(even) {
   background-color: #dddddd;
 }
 </style>
 	</head>
 	<body>
+	<?php include('includes/navbar.php'); ?><br>
 		<?php
 		if(!empty($_SESSION["kosár"])){
 			$total = 0;
@@ -39,7 +49,7 @@ tr:nth-child(even) {
 			<tr>
 				<td><?php echo $values['id']; ?></td>
 				<td><?php echo $values['nev']; ?></td>
-				<td><?php echo $values['mennyiseg']; ?></td>
+				<td><input type="number" id="tentacles" name="tentacles" value="<?php echo $values['mennyiseg']; ?>"></td>
 				<td><?php echo $values['ar']; ?> Ft</td>
 			</tr>
 		</table>

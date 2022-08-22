@@ -154,20 +154,17 @@ $item_array = array(
 
         <?php 
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-    if(isset($db)){
-        echo "Okay here";
-    }else{
-        echo "Valami itt már nem jó";
-    }
 
-		$termekek = Termek::termekInfo($id, $db);
+    $class = new Termek();
+    $termekek = $class->termekInfo($id);
+
+		
 		
 		foreach($termekek as $termek){
 			$nev = $termek->nev;
-            echo $nev;
+            $desc = $termek->leiras;
+            $price = $termek->ar;
+
         }
 	?>
 
@@ -186,9 +183,9 @@ error_reporting(E_ALL);
 		</section>
 		<section>
 			<div class="details">
-				<h2 class="product-brand">Nev</h2>
-				<p class="product-short-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-				<span class="product-price">$99</span>
+				<h2 class="product-brand"><?php echo $nev; ?></h2>
+				<p class="product-short-des"><?php echo $desc; ?></p>
+				<span class="product-price">$<?php echo $price; ?></span>
 				<span class="product-actual-price">$200</span>
 				<span class="product-discount">(50% off)</span>
 				

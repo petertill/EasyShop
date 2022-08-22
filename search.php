@@ -1,6 +1,10 @@
 <?php
 session_start();
-include('Termek.php');
+include('./class/Termek.php');
+
+
+$query = htmlspecialchars($_GET['q']);
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -31,13 +35,21 @@ include('Termek.php');
 		<?php include('includes/navbar.php'); ?>
 		<!-- hero section -->
 		<section class="search-results">
-			<h2 class="heading">search results for <span>product</span></h2>
+			<h2 class="heading">search results for <span><?php echo $query; ?></span></h2>
 			<div class="product-container">
 	<?php 
-		$termekek = Termek::termekLista();
-		
-		foreach($termekek as $termek){
-			$nev = $termek->nev;
+		$class = new Termek();
+        $termekek = $class->termekKereses($query);
+    
+
+        if (is_array($termekek) || is_object($termekek))
+{
+        foreach($termekek as $termek){
+                $nev = $termek->nev;
+                //$desc = $termek->leiras;
+                $price = $termek->ar;
+    
+            
 	?>
     <div class="product-card">
         <div class="product-image">
@@ -52,6 +64,10 @@ include('Termek.php');
         </div>
     </div>
     <?php
+}
+
+}else{
+    echo "Couldn't find anything :(";
 }
 ?>
     +7 more cards

@@ -27,8 +27,6 @@ $db = new mysqli("'. $dbhost .'", "'. $dbuser .'", "'. $dbpw .'", "'. $db .'") o
 
 $shop_name = "'. $shopname.'";
 
-$theme = "light";
-
 //copyright information
 $year = date("Y");
 $copyright = $year . " | ' . $shopname. ', All rights reserved! ";

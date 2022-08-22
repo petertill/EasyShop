@@ -1,4 +1,9 @@
 <h1 align="center"> EasyShop </h1> <br>
+<p align="center">
+  <a href="https://gitpoint.co/">
+    <img alt="GitPoint" title="GitPoint" src="http://i.imgur.com/VShxJHs.png" width="450">
+  </a>
+</p>
 
 <p align="center">
   A complete user-friendly online webshop made with PHP OOP & MySQL.
@@ -19,24 +24,28 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Contact me](#contact-me)
 - [Features](#features)
 - [Feedback](#feedback)
 - [Contributors](#contributors)
 - [Build Process](#build-process)
+- [Backers](#backers-)
+- [Sponsors](#sponsors-)
 - [Acknowledgments](#acknowledgments)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Introduction
 
-Complete php webshop script made with PHP OOP & MySQL. It has an easy-to-use installer so you can install it with two clickes. View & add goods to chart, you can also search for a specific product, or browse the recommended section.
+[![Build Status](https://img.shields.io/travis/gitpoint/git-point.svg?style=flat-square)](https://travis-ci.org/gitpoint/git-point)
+[![Coveralls](https://img.shields.io/coveralls/github/gitpoint/git-point.svg?style=flat-square)](https://coveralls.io/github/gitpoint/git-point)
+[![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=flat-square)](http://commitizen.github.io/cz-cli/)
+[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/git-point)
 
-## Contact me
-[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/petertill/community)
+View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
 
-
-**Available for only desktop use**
+**Available for both iOS and Android.**
 
 <p align="center">
   <img src = "http://i.imgur.com/HowF6aM.png" width=350>
@@ -66,10 +75,6 @@ The following features are included in this software:
 **User/Visitor:**
 
 * Can browse goods
-* Can search for specific product
-* Can add products to cart
-* Can purchase products
-* Can view product details
 
 <p align="center">
   <img src = "http://i.imgur.com/0iorG20.png" width=700>
@@ -77,13 +82,13 @@ The following features are included in this software:
 
 ## Feedback
 
-Feel free to send me feedback on [Gitter](https://gitter.im/petertill/community/) so I can make the project better!
+Feel free to send me feedback on [Codester](https://twitter.com/gitpointapp) so I can make the project better!
 
 If there's anything you'd like to chat about, please feel free to contact me on Discord (**petyadev#1129**)!
 
-## Contributors
+## Creator(s) of this software
 
-This software was made by **[Peter Till](https://github.com/petertill)**
+This software was made by **[Peter Till](https://github.com/petertill)**, who sold it on [Codester](./CONTRIBUTORS.md).
 
 ## Build Process
 
@@ -95,12 +100,32 @@ This software was made by **[Peter Till](https://github.com/petertill)**
 - Fill out the `System configuration` box's fields with your database and it's credentials. If you aren't sure, contact your network administrator, the IT team or the web hosting provider.
 - Decide your admin username and password. You will be able to log into the admin panel with these, so make sure you will remember your password but other people can't guess it.
 - Click the `Next` button
-- Follow the instructions on the page to remove the installer. It is recommended for security.
+- 
 
-Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how can you contribute to this project.
+Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how to build your application as well as troubleshooting information.
 
 **Development Keys**: The `CLIENT_ID` and `CLIENT_SECRET` in `api/index.js` are for development purposes and do not represent the actual application keys. Feel free to use them or use a new set of keys by creating an [OAuth application](https://github.com/settings/applications/new) of your own. Set the "Authorization callback URL" to `gitpoint://welcome`.
 
+## Backers [![Backers on Open Collective](https://opencollective.com/git-point/backers/badge.svg)](#backers)
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/git-point#backer)]
+
+<a href="https://opencollective.com/git-point#backers" target="_blank"><img src="https://opencollective.com/git-point/backers.svg?width=890"></a>
+
+## Sponsors [![Sponsors on Open Collective](https://opencollective.com/git-point/sponsors/badge.svg)](#sponsors)
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/git-point#sponsor)]
+
+<a href="https://opencollective.com/git-point/sponsor/0/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/git-point/sponsor/1/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/git-point/sponsor/2/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/git-point/sponsor/3/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/git-point/sponsor/4/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/git-point/sponsor/5/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/git-point/sponsor/6/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/git-point/sponsor/7/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/git-point/sponsor/8/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/git-point/sponsor/9/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/9/avatar.svg"></a>
 
 ## Acknowledgments
 
