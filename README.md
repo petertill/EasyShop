@@ -81,7 +81,7 @@ If there's anything you'd like to chat about, please feel free to contact me on 
 
 ## Creator(s) of this software
 
-This software was made by **[Peter Till](https://github.com/petertill)**, who sold it on [Codester](./CONTRIBUTORS.md).
+This software was made by **[Peter Till](https://github.com/petertill)**
 
 ## Build Process
 
@@ -93,9 +93,9 @@ This software was made by **[Peter Till](https://github.com/petertill)**, who so
 - Fill out the `System configuration` box's fields with your database and it's credentials. If you aren't sure, contact your network administrator, the IT team or the web hosting provider.
 - Decide your admin username and password. You will be able to log into the admin panel with these, so make sure you will remember your password but other people can't guess it.
 - Click the `Next` button
-- 
+- Follow the instructions on the page to remove the installer. It is recommended for security.
 
-Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how to build your application as well as troubleshooting information.
+Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how can you contribute to this project.
 
 **Development Keys**: The `CLIENT_ID` and `CLIENT_SECRET` in `api/index.js` are for development purposes and do not represent the actual application keys. Feel free to use them or use a new set of keys by creating an [OAuth application](https://github.com/settings/applications/new) of your own. Set the "Authorization callback URL" to `gitpoint://welcome`.
 
