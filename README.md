@@ -1,9 +1,4 @@
 <h1 align="center"> EasyShop </h1> <br>
-<p align="center">
-  <a href="https://gitpoint.co/">
-    <img alt="GitPoint" title="GitPoint" src="http://i.imgur.com/VShxJHs.png" width="450">
-  </a>
-</p>
 
 <p align="center">
   A complete user-friendly online webshop made with PHP OOP & MySQL.
