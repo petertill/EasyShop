@@ -24,8 +24,6 @@
 - [Feedback](#feedback)
 - [Contributors](#contributors)
 - [Build Process](#build-process)
-- [Backers](#backers-)
-- [Sponsors](#sponsors-)
 - [Acknowledgments](#acknowledgments)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -83,7 +81,7 @@ Feel free to send me feedback on [Gitter](https://gitter.im/petertill/community/
 
 If there's anything you'd like to chat about, please feel free to contact me on Discord (**petyadev#1129**)!
 
-## Creator(s) of this software
+## Contributors
 
 This software was made by **[Peter Till](https://github.com/petertill)**
 
@@ -102,9 +100,6 @@ This software was made by **[Peter Till](https://github.com/petertill)**
 Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how can you contribute to this project.
 
 **Development Keys**: The `CLIENT_ID` and `CLIENT_SECRET` in `api/index.js` are for development purposes and do not represent the actual application keys. Feel free to use them or use a new set of keys by creating an [OAuth application](https://github.com/settings/applications/new) of your own. Set the "Authorization callback URL" to `gitpoint://welcome`.
-
-## Contributors [![Contributors](./CONTRIBUTING.md)]
-
 
 
 ## Acknowledgments
