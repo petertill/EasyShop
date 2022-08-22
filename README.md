@@ -19,6 +19,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Contact me](#contact-me)
 - [Features](#features)
 - [Feedback](#feedback)
 - [Contributors](#contributors)
@@ -31,10 +32,11 @@
 
 ## Introduction
 
-## Contact me
-[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/git-point)
+Complete php webshop script made with PHP OOP & MySQL. It has an easy-to-use installer so you can install it with two clickes. View & add goods to chart, you can also search for a specific product, or browse the recommended section.
 
-View repository and user information, control your notifications and even manage your issues and pull requests. Built with React Native, GitPoint is one of the most feature-rich unofficial GitHub clients that is 100% free.
+## Contact me
+[![Gitter chat](https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square)](https://gitter.im/petertill/community)
+
 
 **Available for both iOS and Android.**
 
